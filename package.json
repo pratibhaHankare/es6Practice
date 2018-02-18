@@ -1,0 +1,23 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets es2015 src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratibhaHankare/es6Practice.git"
+  },
+  "author": "pratibha hankare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratibhaHankare/es6Practice/issues"
+  },
+  "homepage": "https://github.com/pratibhaHankare/es6Practice#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
